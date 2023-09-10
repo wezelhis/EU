@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./Programa.css">
+  
+    <title>Química show</title>
+</head>
+<style>
+  @media (max-width:500px){
+   #nomefuncional{
+    position: absolute;
+    top: 80%;
+    left: 23%;
+   }
+   #aci{
+    position: absolute;
+    top: 50%;
+    left: -20%;
+ }
+   p{
+    margin-top:70px;
+   }
+    #h1{
+        position: absolute;
+        font-size: 20px;
+        left: 9%;
+        top: 40%;
+     
+    }
+#h2{
+    position: absolute;
+    top: 40%;
+    left: -2% ;
+}
+#h5{
+    position: absolute;
+    top: 40%;
+    font-size: 12px;
+   
+}
+#h4{
+    position: absolute;
+left: -2%;
+top: 40%;
+}
+#h{
+    font-size: 20px;
+}
+footer #h{
+    font-size: 18px;
+    position: absolute;
+    top:18px;
+}
+footer img{
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    top:18px;
+    bottom: auto;
+   
+}
+#a{
+    position: absolute;
+    left: 78%;
+    max-width: 60%;
+    
+}
+footer{
+   position: fixed;
+   top: 90%;
+   height:80px;
+
+}
+
+#voltar img{
+    max-width: 30%;
+    
+
+   
+}
+
+input{
+    position: absolute;
+    left: -65px;
+    top: 32px;
+ 
+}
+#bnt1 {
+    margin-left: -98px;
+    margin-top: 30px;
+}
+#imageContainer{
+    margin-left: -57px;
+    margin-top:35px ;
+}
+ }
+ @media screen  and (max-height:900px){
+    footer{
+        position:absolute;
+        top:99%;
+    }
+    input{
+    position: absolute;
+    left: -65px;
+    top: 60px;
+ 
+}
+#bnt1 {
+    margin-left: -98px;
+    margin-top: 60px;
+}
+placeholder{
+    color: black;
+}
+    
+ }
+ @media screen and (max-width:2000px){
+    p{
+        font-size: 20px;
+    }
+ }
+
+
+#imageContainer img{
+  width:250px;
+ }
+ #acido{
+    display:none;
+ }
+ #alcool{
+    display:none;
+ }
+ #amina{
+    display:none;
+ }
+ #amida{
+    display:none;
+ }
+ #eter{
+    display:none;
+ }
+ #hidro{
+    display:none;
+ }
+ #dri{
+    display:none;
+ }
+ #fenol{
+    display:none;
+ }
+ #cetona{
+    display:none;
+ }
+ #aldeidos{
+    display:none;
+ }
+ #nomefuncional{
+    margin-top:40%;
+    margin-left:40%;
+ }
+ #aci{
+    position: absolute;
+    left: 40%;
+    top: 80%;
+ }
+</style>
+
+<body id="prog" onload="exibirNotificacao()">
+
+    <div class="wezelhis">
+    
+  <div id="page">
+    <div id="container">
+        <div id="ring"></div>
+        <div id="ring"></div>
+        <div id="ring"></div>
+        <div id="ring"></div>
+        <div id="h3" style="font-size: large;">loading</div>
+    </div>
+</div>  
+<h1 id="h1">Estamos processando sua aplicação</h1>
+<h1 id="h2">Não se desespere</h1> 
+<h1 id="h5" > Aqui no QUÍMICA SHOW você pesquisa o que quiser</h1> 
+<h1 id="h4" > Está quase pronto</h1> 
+</div>
+    
+    <div id="bodytodo">
+       
+        <div id="tudo">
+            <div class="input">
+                <input type="text" id="nameInput" placeholder="Digite a fórmula molécular/nome" required="">
+            </div>
+        </div>
+
+        <img id="bnt1"  src="./buscar.png" alt="" onclick="exibirImagem()" onclick="exibirgrupofuncionall()">
+  
+
+        <div id="voltar">
+            <a id="voltar" href="/index.html"> <img src="voltar copy.png" alt=""></a>
+        </div>
+
+        <footer>
+            <p id="h" >SIGAM EM NOSSAS REDES SOCIAIS</p>
+
+            <a id="a" href="/Desenvolvedores/Desenvolvedores.html"><img src="insta.png" alt=""></a>
+        </footer>
+
+
+        <div id="imageContainer">
+
+        </div>
+    </div>
+    
+    <div id="aci" >
+
+    </div>
+
+    
+</body>
+
+</html>
+<script>
+    
+</script>
+<script src="prog.js"></script>
+<script src="programa.js"></script>

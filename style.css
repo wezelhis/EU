@@ -1,0 +1,217 @@
+#texto2{
+    display:none;
+}
+#texto3{
+    display:none;
+}
+body,
+ul {
+    margin: 0px;
+    
+}
+
+body {
+    background-color:width ;
+
+    font-size: 14px;
+
+}
+
+
+@media screen and (min-width: 768px) {
+    body {
+        font-size: 18px;
+    }
+}
+
+#img {
+    margin-left: -85%;
+    position: absolute;
+    width: 120px;
+    height: 120px;
+    border-radius: 30px;
+
+}
+
+#texto {
+    position: absolute;
+    margin-left: -55%;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+    font-family: sans-serif;
+}
+
+#header {
+    display: flex;
+    align-items: center;
+    box-sizing: border-box;
+    justify-content: space-around;
+    background: linear-gradient(to left, rgb(1, 196, 255), 50%, rgb(58, 110, 255));
+    height: 135px;
+    width: 100%;
+
+}
+
+#d a li {
+    margin-left: 5%;
+}
+
+#menu {
+    display: flex;
+    list-style: none;
+    gap: 1rem;
+    margin-left: 130px;
+}
+
+#menu a {
+    display: block;
+    padding: 1rem;
+}
+
+#btn {
+    position: absolute;
+    display: none;
+    left: 90%;
+    top: 5%;
+    width: 80px;
+    height: 80px;
+    cursor: pointer;
+}
+
+@media (max-width:1000px) {
+    #menulateral {
+        display: none;
+    }
+
+    #menulateral {
+        display: block;
+    }
+}
+
+
+@media (max-width:1000px) {
+    #btn {
+        display: block;
+    }
+
+    #menu {
+        position: absolute;
+        display: none;
+
+    }
+
+}
+
+#menu li {
+    background: linear-gradient(to left, rgb(8, 228, 19), 60%, rgb(3, 175, 243));
+    border: 3px solid black;
+    border-radius: 30px;
+}
+
+#menulateral {
+    position: absolute;
+    width: max-content;
+    top: 22.8%;
+    left: 78.3%;
+    list-style: none;
+    background-color: green;
+    width: 19.2%;
+    padding: 8px;
+    border-radius: 10px;
+    font-size: large;
+    font-family: cursive;
+    border-style: solid;
+    border-color: black;
+    visibility: hidden;
+}
+
+#es {
+    cursor: pointer;
+    margin-left: 89%;
+
+}
+
+#menulateral li :hover {
+    background-color: gray;
+    padding-left: 20px;
+
+}
+
+#but {
+    position: absolute;
+    top: 68%;
+    left: 40%;
+}
+
+#but button {
+    width: 200px;
+    height: 60px;
+    border-radius: 30px;
+    background-color: black;
+
+}
+
+
+#link {
+    text-decoration: none;
+    color: white;
+    font-size: 30px;
+
+}
+ h2{
+   
+}
+
+#caixa1 {
+    background: linear-gradient(to right, rgb(6, 226, 255), 50%, rgb(0, 60, 255));
+    width: 600px;
+    height: 350px;
+    margin-left: 20%;
+    border-radius: 35px;
+    border-color: rgb(8, 8, 15);
+    border-width: 7px;
+    border-style: solid;
+    margin-top: 13%;
+}
+
+#caixa2 {
+    text-align: center;
+}
+
+#img1 img {
+    margin-left: 6%;
+    height: 223px;
+}
+
+#img2 img {
+    height: 223px;
+    margin-left: 34%;
+    margin-top: -39%;
+    height: 150px;
+}
+
+#d {
+    margin-left: 80px;
+}
+
+#c {
+    margin-left: 190px;
+}
+
+#menu {
+    margin-left: 190px;
+}
+
+li{
+    font-weight: bold;
+    
+}
+    body{
+        background-color: #928c8c ;
+    }
+    #c{
+        margin-left:30%;
+    }

@@ -1,0 +1,428 @@
+
+@media (max-width:502px) {
+   
+    #img{
+       
+    margin-left: -289px;
+    }
+    #texto{
+        font-size: 2px;
+       margin-left: 2px;
+       }
+       #texto{
+        display:none;
+        position:absolute;  
+      }
+        #texto2{
+          position:absolute;
+         font-size: 2px;
+ display:block;
+ top:10px;
+ left:33%;
+        }
+        #texto3{
+         font-size: 22px;
+         display:block;
+         top:50px;
+         left:30%;
+        }
+     img #btn{
+        position: absolute;
+       left: -2px;
+     }
+     #but{
+        position: absolute;
+       margin-top: 40%;
+       margin-left: -10%;
+
+     }
+      #menulateral{
+       width: 40%;
+     margin-top: -1px;
+      font-size: 18px;
+       margin-left: -78%;
+       
+       }
+       #btn{
+           display: block;
+         margin-left: -70px;
+       }
+   #menu{
+       position: absolute;
+       display: none; 
+       
+   }  
+   }
+@media (max-width:430px)  {
+   
+    #img{
+       
+    margin-left: -280px;
+    }
+    #texto{
+      font-size: 2px;
+     margin-left: 2px;
+     }
+     #texto{
+      display:none;
+      position:absolute;  
+    }
+      #texto2{
+        position:absolute;
+       font-size: 25px;
+display:block;
+top:10px;
+left:33%;
+      }
+      #texto3{
+       font-size: 22px;
+       display:block;
+       font-size:25px;
+       top:50px;
+       left:30%;
+      }
+     img #btn{
+        position: absolute;
+       margin-left: -2px;
+     }
+     #but{
+        position: absolute;
+       margin-top: 5%;
+       margin-left: -10%;
+     }
+      #menulateral{
+       width: 40%;
+     margin-top: -30px;
+      font-size: 18px;
+       margin-left: -78%;
+       
+       }
+       #btn{
+           display: block;
+         margin-left: -40px;
+       }
+   #menu{
+       position: absolute;
+       display: none; 
+       
+   }
+    }
+
+    @media (max-width:600px) {
+   
+        #img{
+           
+        margin-left: -281px;
+        }
+       h1 {
+        position:absolute;
+            font-size: 77%;
+           left: 1%;
+           }
+         img #btn{
+            position: absolute;
+           margin-left: -2px;
+         }
+         #but{
+            position: absolute;
+           margin-top: 40%;
+           margin-left: -10%;
+    
+         }
+          #menulateral{
+           width: 40%;
+         margin-top: -1px;
+          font-size: 18px;
+           margin-left: -78%;
+           
+           }
+           #btn{
+               display: block;
+             margin-left: -70px;
+           }
+       #menu{
+           position: absolute;
+           display: none;      
+       }
+        }
+        @media (max-width:800px) {
+   
+            #img{
+               
+            margin-left: -650px;
+            }
+            #texto h1{
+                font-size: 30px;
+             margin-left: 90pc;
+               }
+             img #btn{
+                position: relative;
+               margin-left: -10px;
+               margin-top:-30px;
+             }
+             #but{
+                position: absolute;
+               margin-top: 40%;
+               margin-left: -10%;
+        
+             }
+              #menulateral{
+               width: 40%;
+             margin-top: -1px;
+              font-size: 18px;
+               margin-left: -25%;
+               
+               }
+               #btn{
+                   display: block;
+                 margin-left: -70px;
+               }
+           #menu{
+               position: absolute;
+               display: none;   
+           }
+            }
+            @media (max-width:500px){
+              #caixa1{
+                position: absolute;
+                max-width: 300px;
+                left: -12%;
+                top:30%;
+                font-size: 13px;
+              }
+              #but{
+                margin-top: -10%;
+                margin-left: -23%;
+                
+              }
+              #caixa2{
+                position: absolute;
+                top: 10%;
+                left:2%;
+                font-size:13px;
+                
+                
+              }   
+       
+            }
+
+           
+  @media (max-width:500px){
+    #menulateral{
+      margin-top:-5%;
+      margin-left:-315px;
+      display:flex;
+      background-color:beige;
+      width:400px;
+      height:30px;
+      
+    }
+    #h{
+      margin-left:-200px;
+    }
+    #g{
+ margin-left:-370px;
+    }
+  }
+  @media (max-width:360px){
+    #menulateral{
+      margin-top:-5%;
+      margin-left:-330px;
+      display:flex;
+      background-color:rgb(38, 168, 157);
+      width:400px;
+      height:30px;
+      
+    }
+    #h{
+      margin-left:24px;
+    }
+    #g{
+ margin-left:50px;
+    }
+    #es{
+    
+    }
+  }
+
+  @media (max-width:393px){
+    #menulateral{
+      margin-top:-5%;
+      margin-left:-330px;
+      display:flex;
+    
+
+      width:400px;
+      height:30px;
+      
+    }
+    
+    #h{
+      margin-left:20px;
+    }
+    #g{
+ margin-left:50px;
+    }
+    #es{
+    
+    }
+    #img{
+margin-left:-70%;
+    }
+  }
+  @media(max-width:800px){
+    #caixa1{
+      
+      margin-top:40%;
+      margin-left:80px;
+    }
+    button{
+      position:absolute;
+      top:-20%;
+    }
+   
+    }
+    @media (max-width:414px){
+      #menulateral{
+        margin-top:-5%;
+        margin-left:-330px;
+        display:flex;
+   ;
+        width:400px;
+        height:30px;
+        
+      }
+     
+      #h{
+        margin-left:40px;
+      }
+      #g{
+   margin-left:20px;
+      }
+      #es{
+      
+      }
+      #img{
+  margin-left:-70%;
+      }
+      #caixa1{
+        position:absolute;
+        top:20%;
+        left:-30px;
+      }
+    }
+    @media (max-width:375px){
+      #menulateral{
+        margin-top:-5%;
+        margin-left:-330px;
+        display:flex;
+      
+        width:400px;
+        height:30px;
+        
+      }
+      #h{
+        margin-left:40px;
+      }
+      #g{
+   margin-left:30px;
+      }
+      #es{
+      
+      }
+      #img{
+  margin-left:-70%;
+      }
+      #caixa1{
+        position:absolute;
+        top:15%;
+        left:-50px;
+      }
+    }
+    @media (max-width:320px){
+      #menulateral{
+        margin-top:-5%;
+        margin-left:-330px;
+        display:flex;
+       
+        width:400px;
+        height:30px;
+        
+      }
+      #h{
+        margin-left:40px;
+      }
+      #g{
+   margin-left:30px;
+      }
+      #es{
+      
+      }
+      #img{
+  margin-left:-70%;
+      }
+      #caixa1{
+        position:absolute;
+        top:15%;
+        left:-50px;
+        width:270px;
+      }
+    }
+    
+   
+  @media (max-width:375px){
+    #menulateral{
+      margin-top:-5%;
+      margin-left:-330px;
+      display:flex;
+
+      width:400px;
+      height:30px;
+      
+    }
+    #h{
+      margin-left:40px;
+    }
+    #g{
+ margin-left:30px;
+    }
+    #es{
+    
+    }
+    #img{
+margin-left:-70%;
+    }
+    #caixa1{
+      position:absolute;
+      top:15%;
+      left:-50px;
+    }
+  }
+  @media(max-width:1280px){
+    #caixa1{
+margin-left:25%;
+    }
+  }
+
+  @media(max-width:360px){
+    
+    #caixa1{
+      position:absolute;
+      left:-18%;
+      
+    }
+    #g{
+      position:absolute;
+      left:8%;
+    }
+    #h{
+      position:absolute;
+      left:45%;
+    }
+  }
+  @media(max-width:414px){
+    #caixa1 {
+      position:absolute;
+left:-13%;
+    }
+  }

@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="style.css">
+   <link rel="stylesheet" href="respon.css">
+   <link rel="shortcut icon" href="./IMG/LogoDoCabeçario.jpeg" type="image/x-icon">
+   <title>Grupo funcionais</title>
+</head>
+<style>
+   h1{
+position:absolute;
+left:20%;
+display:block;
+  }
+@media (max-width:800px){
+   #texto h1{
+      margin-left: -300px;
+   }
+   
+   }
+
+</style>
+
+<body>
+   <header id="header">
+      <img id="img" src="./IMG/Logocabeça.png" alt="Logo de quimica">
+      <h1 style="margin-left:-70px;" id="texto">QUÍMICA ORGÂNICA</h1>
+      <h1 id="texto2">QUÍMICA</h1>
+      <h1 id="texto3">ORGÂNICA</h1>
+
+
+      <nav id="nav">
+
+         <ul id="menu">
+            <li id="c"><a href="./Como_funciona/Como_funciona.html">Como_funciona?</a></li>
+            <li id="d"><a href="./Desenvolvedores/Desenvolvedores.html">Desenvolvedores</a></li>
+
+         </ul>
+      </nav>
+
+      <ul id="menulateral">
+         <button id="es" onclick="EsconderMenuLateral()">X</button>
+         
+         <br>
+         <li><a id="g" href="./Como_funciona/Como_funciona.html">como_funciona?</a></li>
+      
+         
+         <li><a id="h" href="./Desenvolvedores/Desenvolvedores.html">Desenvolvedores</a></li>
+         <br>
+      </ul>
+   </header>
+  
+   <img id="btn" onclick="MostrarMenuLateral()" src="./IMG/pngtree-menu-icon-image_1344445-removebg-preview.png" alt="">
+
+
+
+   <div id="caixa1">
+      <div id="caixa2">
+         <h2><strong>BEM-VINDO A QUÍMICA SHOW</strong></h2>
+      
+
+      </div>
+      <div id="but">
+         <button><a id="link" href="./GrupoFuncionais/progama.html">ENTRAR</a></button>
+      </div>
+
+</body>
+
+</html>
+<script src="./tela.js"></script>
